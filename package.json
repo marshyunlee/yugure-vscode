@@ -1,0 +1,46 @@
+{
+  "name": "yugure-theme",
+  "displayName": "Yūgure",
+  "description": "A quiet twilight color theme: neutral near-black ground, softened text, six muted accents that each do one job.",
+  "version": "0.1.0",
+  "publisher": "marshyunlee",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marshyunlee/yugure-vscode.git"
+  },
+  "homepage": "https://github.com/marshyunlee/yugure-vscode#readme",
+  "bugs": {
+    "url": "https://github.com/marshyunlee/yugure-vscode/issues"
+  },
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "twilight",
+    "yugure",
+    "dusk"
+  ],
+  "galleryBanner": {
+    "color": "#141518",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Yūgure",
+        "uiTheme": "vs-dark",
+        "path": "./themes/yugure-color-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "test": "node scripts/check.js",
+    "package": "npx --yes @vscode/vsce package"
+  }
+}
