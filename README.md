@@ -14,7 +14,14 @@ Neovim port lives at [marshyunlee/yugure.nvim](https://github.com/marshyunlee/yu
 
 ## Install
 
-From a clone, until it is on the Marketplace:
+From a clone, until it is on the Marketplace. Either copy the folder into
+VS Code's extensions directory:
+
+```sh
+git clone https://github.com/marshyunlee/yugure-vscode ~/.vscode/extensions/marshyunlee.yugure-theme-0.1.0
+```
+
+or build and install a VSIX:
 
 ```sh
 git clone https://github.com/marshyunlee/yugure-vscode
@@ -23,7 +30,7 @@ npx --yes @vscode/vsce package
 code --install-extension yugure-theme-0.1.0.vsix
 ```
 
-Then **Preferences → Color Theme → Yūgure**.
+Restart VS Code, then **Preferences → Color Theme → Yūgure**.
 
 ## Palette
 
