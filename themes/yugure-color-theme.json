@@ -753,14 +753,44 @@
       }
     },
     {
+      "name": "Language constants",
+      "scope": [
+        "constant.language",
+        "constant.language.boolean",
+        "constant.language.null",
+        "constant.language.undefined"
+      ],
+      "settings": {
+        "foreground": "#9A8EB9",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Built-in types",
+      "scope": [
+        "support.type.primitive",
+        "support.type.builtin",
+        "storage.type.primitive",
+        "storage.type.built-in",
+        "keyword.type.go",
+        "storage.type.boolean.go",
+        "storage.type.byte.go",
+        "storage.type.error.go",
+        "storage.type.numeric.go",
+        "storage.type.rune.go",
+        "storage.type.string.go",
+        "storage.type.uintptr.go"
+      ],
+      "settings": {
+        "foreground": "#7BA09F",
+        "fontStyle": "bold"
+      }
+    },
+    {
       "name": "Numbers, booleans, constants",
       "scope": [
         "constant",
         "constant.numeric",
-        "constant.language",
-        "constant.language.boolean",
-        "constant.language.null",
-        "constant.language.undefined",
         "constant.other",
         "constant.other.symbol",
         "constant.other.color",
@@ -827,14 +857,9 @@
         "entity.name.struct",
         "entity.other.inherited-class",
         "support.type",
-        "support.type.primitive",
-        "support.type.builtin",
         "support.class",
         "support.class.builtin",
-        "storage.type.primitive",
-        "storage.type.built-in",
         "storage.type.generic",
-        "keyword.type.go",
         "entity.name.type.go",
         "meta.type.annotation",
         "meta.return.type",
@@ -1286,6 +1311,14 @@
     "property.readonly": "#9A8EB9",
     "event": "#9A8EB9",
     "label": "#B98590",
+    "type.defaultLibrary": {
+      "foreground": "#7BA09F",
+      "fontStyle": "bold"
+    },
+    "variable.readonly.defaultLibrary": {
+      "foreground": "#9A8EB9",
+      "fontStyle": "italic"
+    },
     "keyword": {
       "foreground": "#B98590",
       "fontStyle": "italic"
