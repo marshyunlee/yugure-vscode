@@ -654,16 +654,12 @@
         "keyword.operator.logical.python",
         "keyword.operator.word",
         "keyword.other",
-        "keyword.other.unit",
         "keyword.other.important",
         "storage",
         "storage.type",
         "storage.modifier",
         "storage.type.function",
         "storage.type.class",
-        "entity.name.tag",
-        "punctuation.definition.tag",
-        "meta.preprocessor",
         "keyword.control.directive",
         "keyword.control.import",
         "keyword.control.export",
@@ -680,7 +676,21 @@
         "keyword.channel"
       ],
       "settings": {
-        "foreground": "#B98590"
+        "foreground": "#B98590",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Tags, preprocessor lines and units",
+      "scope": [
+        "entity.name.tag",
+        "punctuation.definition.tag",
+        "meta.preprocessor",
+        "keyword.other.unit"
+      ],
+      "settings": {
+        "foreground": "#B98590",
+        "fontStyle": ""
       }
     },
     {
@@ -706,7 +716,8 @@
         "meta.delimiter"
       ],
       "settings": {
-        "foreground": "#7F8797"
+        "foreground": "#7F8797",
+        "fontStyle": ""
       }
     },
     {
@@ -737,7 +748,8 @@
         "punctuation.section.embedded"
       ],
       "settings": {
-        "foreground": "#9A8EB9"
+        "foreground": "#9A8EB9",
+        "fontStyle": ""
       }
     },
     {
@@ -759,7 +771,8 @@
         "keyword.other.unit.suffix"
       ],
       "settings": {
-        "foreground": "#9A8EB9"
+        "foreground": "#9A8EB9",
+        "fontStyle": ""
       }
     },
     {
@@ -828,7 +841,8 @@
         "meta.type.parameters entity.name.type"
       ],
       "settings": {
-        "foreground": "#7BA09F"
+        "foreground": "#7BA09F",
+        "fontStyle": ""
       }
     },
     {
@@ -840,7 +854,8 @@
         "entity.name.section"
       ],
       "settings": {
-        "foreground": "#9DA4B2"
+        "foreground": "#9DA4B2",
+        "fontStyle": ""
       }
     },
     {
@@ -881,7 +896,8 @@
         "punctuation.definition.lifetime"
       ],
       "settings": {
-        "foreground": "#B98590"
+        "foreground": "#B98590",
+        "fontStyle": ""
       }
     },
     {
@@ -1180,7 +1196,8 @@
         "keyword.other.special-method"
       ],
       "settings": {
-        "foreground": "#7AA3B5"
+        "foreground": "#7AA3B5",
+        "fontStyle": ""
       }
     },
     {
@@ -1269,7 +1286,10 @@
     "property.readonly": "#9A8EB9",
     "event": "#9A8EB9",
     "label": "#B98590",
-    "keyword": "#B98590",
+    "keyword": {
+      "foreground": "#B98590",
+      "fontStyle": "italic"
+    },
     "modifier": "#B98590",
     "operator": "#7F8797",
     "string": "#BFA077",
