@@ -34,6 +34,9 @@ Restart VS Code, then **Preferences → Color Theme → Yūgure**.
 
 ## Palette
 
+Text and accent colors sit 0.04 higher in OKLCH lightness than the Inkdrop
+table, for more contrast; hues, chroma and the grounds are unchanged.
+
 | name    | hex       | role                                                  |
 | ------- | --------- | ----------------------------------------------------- |
 | base    | `#141518` | editor and workbench background                       |
@@ -42,17 +45,17 @@ Restart VS Code, then **Preferences → Color Theme → Yūgure**.
 | overlay | `#1F2026` | status bar, separators, inactive selection            |
 | med     | `#2A2C34` | selection, list focus                                 |
 | high    | `#383A43` | borders, bracket match, scrollbars                    |
-| text    | `#9DA4B2` | body text                                             |
-| iron    | `#8F97A6` | secondary text, parameters                            |
-| subtle  | `#7F8797` | interface text, punctuation, operators                |
-| muted   | `#5E6577` | comments, placeholders, inlay hints                   |
-| faint   | `#454A58` | line numbers, whitespace, ignored files               |
-| rose    | `#B98590` | keywords, storage, tags, list bullets, h1             |
-| gold    | `#BFA077` | strings, warnings, find matches, modified files, h2   |
-| foam    | `#7AA3B5` | functions, links, info, focus, primary buttons, h3    |
-| teal    | `#7BA09F` | types, inline code, added files, hints, h4            |
-| iris    | `#9A8EB9` | numbers, constants, attributes, badges, untracked, h5 |
-| love    | `#BA6B70` | errors and deletions, nothing else                    |
+| text    | `#A9B0BF` | body text                                             |
+| iron    | `#9BA3B3` | secondary text, parameters                            |
+| subtle  | `#8B93A3` | interface text, punctuation, operators                |
+| muted   | `#697083` | comments, placeholders, inlay hints                   |
+| faint   | `#505563` | line numbers, whitespace, ignored files               |
+| rose    | `#C6919C` | keywords, storage, tags, list bullets, h1             |
+| gold    | `#CCAC83` | strings, warnings, find matches, modified files, h2   |
+| foam    | `#86B0C2` | functions, links, info, focus, primary buttons, h3    |
+| teal    | `#87ACAB` | types, inline code, added files, hints, h4            |
+| iris    | `#A69AC6` | numbers, constants, attributes, badges, untracked, h5 |
+| love    | `#C7777C` | errors and deletions, nothing else                    |
 
 ## What is covered
 
@@ -73,4 +76,4 @@ palette, keeps `love` out of syntax scopes, and rejects duplicate scopes.
 
 ## License
 
-MIT. The palette is reproduced from the Inkdrop theme's published color table.
+MIT. The palette is adapted from the Inkdrop theme's published color table.

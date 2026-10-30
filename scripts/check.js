@@ -10,10 +10,10 @@ const check = (ok, message) => { if (!ok) failures.push(message); };
 
 const palette = {
   base: "#141518", surface: "#18191D", low: "#1B1C21", overlay: "#1F2026", med: "#2A2C34", high: "#383A43",
-  text: "#9DA4B2", iron: "#8F97A6", subtle: "#7F8797", muted: "#5E6577", faint: "#454A58",
-  rose: "#B98590", gold: "#BFA077", foam: "#7AA3B5", teal: "#7BA09F", iris: "#9A8EB9", love: "#BA6B70",
+  text: "#A9B0BF", iron: "#9BA3B3", subtle: "#8B93A3", muted: "#697083", faint: "#505563",
+  rose: "#C6919C", gold: "#CCAC83", foam: "#86B0C2", teal: "#87ACAB", iris: "#A69AC6", love: "#C7777C",
 };
-const known = new Set([...Object.values(palette), "#000000", "#8FB3C3", "#383843"].map((c) => c.toUpperCase()));
+const known = new Set([...Object.values(palette), "#000000", "#9BC0D0", "#383843"].map((c) => c.toUpperCase()));
 
 const isHex = (value) => /^#[0-9A-Fa-f]{6}([0-9A-Fa-f]{2})?$/.test(value);
 const basePart = (value) => value.slice(0, 7).toUpperCase();

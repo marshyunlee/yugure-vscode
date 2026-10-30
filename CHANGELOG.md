@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.4.0
+
+Higher contrast: text and accent colors are 0.04 lighter in OKLCH, with the
+same hues and backgrounds.
+
 ## 0.3.0
 
 Language constants (null, true, false, undefined) are italic and built-in
